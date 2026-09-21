@@ -1,5 +1,7 @@
-package lw01.prelab;
+package lw01.unguided;
 
 public interface Chargeable {
     int calculateCharge();
 }
+
+

@@ -1,3 +1,5 @@
+package lw01.prelab;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -24,7 +26,6 @@ public class Main {
             System.err.println("File jobs.txt tidak ditemukan: " + e.getMessage());
         }
 
-        // Menampilkan ringkasan menggunakan polimorfisme runtime
         for (PrintJob job : printJobs) {
             System.out.println(job.summary());
         }
